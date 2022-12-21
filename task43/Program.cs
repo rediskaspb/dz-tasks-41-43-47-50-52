@@ -20,7 +20,7 @@ if(k1==k2 && b1==b2)
 }
 else if(k1==k2)
 {
-    Console.WriteLine("Прямые совпадают");
+    Console.WriteLine("Прямые параллельны");
 }
 else
 {
@@ -28,12 +28,3 @@ else
     y = (k1 * (b2-b1)) / (k1-k2)+b1;
     Console.WriteLine($"Пересечение в точке: ({x};{y})");
 }
-    // Console.WriteLine($"b1={b1}, k1={k1}, b2={b2}, k2={k2}");
-// double x = (b2-b1)/(k1-k2);
-// Console.WriteLine(x);
-// double y = k1 * x + b1;
-
-// if(y = k1 * x + b1 || y = k2 * x + b2)
-// {
-//     Console.WriteLine($"Пересечение в точке: ({x};{y})");
-// }
