@@ -15,7 +15,7 @@ int[] GetRandomArray(int length, int leftRange, int rightRange)
     return array;
 }
 
-void Reverse(int [] array)
+void Reverse(int[] array)
 {
     for(int i = 0; i < array.Length/2; i++)
     {
@@ -24,9 +24,11 @@ void Reverse(int [] array)
         array[array.Length - i - 1] = temp;
     }
 }
+
 const int LENGTH = 5;
 const int LEFTRANGE = 1;
 const int RIGHTRANGE = 10;
+
 int[] massive = GetRandomArray(LENGTH, LEFTRANGE, RIGHTRANGE);
 Console.WriteLine($"[{string.Join(", ", massive)}]");
 Console.WriteLine();
